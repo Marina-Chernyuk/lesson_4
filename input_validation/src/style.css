@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container {
+  width: 60%;
+  padding: 20px;
+  margin: 60px auto;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+          box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+  background: #e6e6e6;
+}
+
+.block {
+  margin-bottom: 30px;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.block_title {
+  font-size: 21px;
+  line-height: 40px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.block_text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.block_in_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block_label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.block_textarea {
+  width: 70%;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+          box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+  border: none;
+  max-width: 70%;
+  padding: 20px;
+  outline: none;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  height: 400px;
+  max-height: 400px;
+}
+
+.block_textarea:focus {
+  -webkit-box-shadow: rgba(63, 60, 243, 0.24) 0 0 10px 0;
+          box-shadow: rgba(63, 60, 243, 0.24) 0 0 10px 0;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+          box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 0;
+          box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 0;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form_label {
+  margin-bottom: 25px;
+}
+
+.form_input {
+  margin-top: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+          box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+  border: none;
+  padding: 10px;
+  outline: none;
+  letter-spacing: 1px;
+  -webkit-transition: -webkit-box-shadow, -webkit-transform 0.3s;
+  transition: -webkit-box-shadow, -webkit-transform 0.3s;
+  transition: box-shadow, transform 0.3s;
+  transition: box-shadow, transform 0.3s, -webkit-box-shadow, -webkit-transform 0.3s;
+  margin-bottom: 10px;
+}
+
+.form_input:focus {
+  -webkit-box-shadow: rgba(63, 60, 243, 0.24) 0 0 10px 0;
+          box-shadow: rgba(63, 60, 243, 0.24) 0 0 10px 0;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.form_input_valid {
+  -webkit-box-shadow: gray 0 0 10px 0;
+          box-shadow: gray 0 0 10px 0;
+}
+
+.form_input_invalid {
+  -webkit-box-shadow: red 0 0 6px 0;
+          box-shadow: red 0 0 6px 0;
+}
+
+.form_error_msg {
+  color: red;
+  font-style: italic;
+  width: 215px;
+}
+/*# sourceMappingURL=style.css.map */
